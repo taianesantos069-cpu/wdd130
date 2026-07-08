@@ -6,5 +6,21 @@ nav {
 nav a {
     color: white;
     display: block;
-    pedding: 20x;
+    padding: 20px;
+}
+
+h1 {
+    color: darkblue;
+}
+
+img {
+    whidth: 150px;
+    height: auto;
+    border: 1px solid black;
+    padding: 2px;
+    box-shadow: 0 0 30px gray;
+}
+
+p {
+    padding: 10px;
 }
