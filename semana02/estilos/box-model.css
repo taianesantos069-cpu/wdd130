@@ -10,8 +10,7 @@
 .callout img {
     float: right;
     margin: 0 0 10px 15px;
-    border: 1px solid #000;
-    padding: 3px;
+    border: 10px solid #000;
     background-color: #bbb;
     width: 100px;
     height: auto;
