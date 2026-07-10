@@ -28,7 +28,7 @@ h1 {
 }
 
 main img {
-    whidth: 150px;
+    width: 150px;
     height: auto;
     border: 1px solid black;
     padding: 2px;
@@ -70,6 +70,6 @@ main img {
     width: auto;
     height: auto;
     border: #eee;
-    box-shadow: #eee;
+    box-shadow: 0px;
 
 }
