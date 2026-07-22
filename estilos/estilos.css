@@ -14,7 +14,7 @@ body {
 
 nav {
     background-color: darkblue;
-    padding: 10px;
+
 }
 
 nav a {
@@ -28,30 +28,32 @@ h1 {
 }
 
 main img {
+    margin-left: 20px;
+    margin-bottom: 20px;
     width: 150px;
     height: auto;
     border: 1px solid black;
     padding: 2px;
     box-shadow: 0 0 30px gray;
+    float: inline-end;
 }
 
 p {
     padding: 0;
 }
 
-main {
-    max-width: 840px;
-}
-
 aside {
     width: 20rem;
-    margin: 1rem;
-    border: 1px solid rgb(0, 0, 0, 0.2);
-    padding: 1rem;
     background-color: #eee;
     color: #333;
     text-align: center;
 
+}
+
+aside h2 {
+    position: relative;
+    top: 47px;
+    left: 10px;
 }
 
 aside img {
@@ -63,4 +65,16 @@ footer {
     margin-top: 15px;
     border-top: 1px solid #000;
     text-align: center;
+}
+
+/* seletores de classe */
+.caixa {
+    border: 1px solid rgb(0, 0, 0, 0.2);
+    padding: 1rem;
+    margin: 1rem;
+    background-color: #eee;
+}
+
+.identacao {
+    padding-left: 2rem;
 }
