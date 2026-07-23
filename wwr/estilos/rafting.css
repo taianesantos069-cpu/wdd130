@@ -47,3 +47,9 @@
  .hero {
      position: relative;
  }
+
+ .hero image {
+     display: block;
+     width: 100%;
+     height: auto;
+ }
