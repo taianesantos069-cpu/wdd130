@@ -1,0 +1,49 @@
+ :root {
+     --cor-primaria: #000;
+     --cor-secundaria: #7fffd4;
+     --cor-destaque1: #006400;
+     --cor-destaque2: #8fbc8f;
+     --cor-fundo: #fff;
+ }
+
+ * {
+     margin: 0;
+     padding: 0;
+     box-sizing: border-box;
+ }
+
+ body {
+     font-family: var(--fonte-boby);
+     color: var(--cor-primaria);
+     background-color: var(--cor-fundo);
+ }
+
+ header,
+ main,
+ footer {
+     width: 840px;
+     margin: 0 auto;
+ }
+
+ h1,
+ h2 {
+     font-family: var(--fonte-titulo);
+     color: var(--cor-destaque1);
+     text-align: center;
+ }
+
+ nav,
+ p,
+ section,
+ article {
+     margin: 16px;
+     padding: 8px;
+ }
+
+ .redes-sociais a {
+     text-decoration: none;
+ }
+
+ .hero {
+     position: relative;
+ }
