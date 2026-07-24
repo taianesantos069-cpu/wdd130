@@ -1,11 +1,10 @@
  :root {
-     --cor-primaria: #000;
-     --cor-secundaria: #7fffd4;
-     --cor-destaque1: #006400;
-     --cor-destaque2: #8fbc8f;
-     --cor-fundo: #fff;
+     --cor-primaria: #055a05;
+     --cor-secundaria: #f4a261;
+     --cor-destaque1: #264653;
+     --cor-destaque2: #e9c46a;
 
-     --fonte-titulo: Georgia, serif;
+     --fonte-titulo: "Times New Roman", "Georgia", serid;
      --fonte-body: Arial, Helvetica, sans-serif;
  }
 
@@ -17,7 +16,7 @@
 
  body {
      font-family: var(--fonte-boby);
-     color: var(--cor-primaria);
+     color: var(--cor-destaque1);
      background-color: var(--cor-fundo);
  }
 
@@ -31,7 +30,7 @@
  h1,
  h2 {
      font-family: var(--fonte-titulo);
-     color: var(--cor-destaque1);
+     color: var(--cor-primaria);
      text-align: center;
  }
 
@@ -96,7 +95,7 @@
  footer {
      justify-content: space-between;
      align-items: center;
-     background-color: var(--cor-destaque1);
+     background-color: var(--cor-primaria);
      color: white;
      padding: 10px 20px;
  }
