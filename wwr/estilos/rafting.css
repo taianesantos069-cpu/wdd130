@@ -1,6 +1,6 @@
  :root {
      --cor-primaria: #055a05;
-     --cor-secundaria: #f4a261;
+     --cor-secundaria: #055005;
      --cor-destaque1: #264653;
      --cor-destaque2: #e9c46a;
 
@@ -96,7 +96,7 @@
  footer {
      justify-content: space-between;
      align-items: center;
-     background-color: var(--cor-primaria);
+     background-color: var(--cor-secundaria);
      color: white;
      padding: 10px 20px;
  }
