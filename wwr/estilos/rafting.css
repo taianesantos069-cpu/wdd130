@@ -15,7 +15,7 @@
  }
 
  body {
-     font-family: var(--fonte-boby);
+     font-family: var(--fonte-body);
      color: var(--cor-destaque1);
      background-color: var(--cor-fundo);
  }
