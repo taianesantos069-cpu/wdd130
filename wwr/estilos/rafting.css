@@ -70,9 +70,7 @@
  .hero article img {
      float: right;
      width: 125px;
-     border: #006400;
-     margin: auto;
-     box-shadow: #006400;
+     border: 2px solid #006400 margin: auto;
  }
 
  .hero h1 {
