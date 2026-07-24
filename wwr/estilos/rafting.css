@@ -4,6 +4,9 @@
      --cor-destaque1: #006400;
      --cor-destaque2: #8fbc8f;
      --cor-fundo: #fff;
+
+     --fonte-titulo: Georgia, serif;
+     --fonte-body: Arial, Helvetica, sans-serif;
  }
 
  * {
@@ -90,4 +93,12 @@
      padding: 1rem;
      background-color: rgba(255, 248, 180, .85);
      padding: 20px;
+ }
+
+ footer {
+     justify-content: space-between;
+     align-items: center;
+     background-color: var(--cor-destaque1);
+     color: white;
+     padding: 10px 20px;
  }
