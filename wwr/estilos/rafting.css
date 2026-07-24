@@ -53,3 +53,22 @@
      width: 100%;
      height: auto;
  }
+
+ h1 {
+     position: absolute;
+     top: 20px;
+     width: 100%;
+     padding: 16px;
+     text-align: center;
+     opacity: 0.7;
+     background-color: var(--cor-destaque1);
+     color: #fff
+ }
+
+ .hero article img {
+     float: right;
+     width: 125px;
+     border: #006400;
+     margin: auto;
+     box-shadow: #006400;
+ }
