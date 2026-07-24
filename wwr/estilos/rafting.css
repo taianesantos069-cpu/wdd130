@@ -48,14 +48,13 @@
      position: relative;
  }
 
- .hero image {
+ .hero img {
      display: block;
      width: 100%;
      height: auto;
  }
 
  h1 {
-     position: absolute;
      top: 20px;
      width: 71%;
      padding: 16px;
@@ -74,8 +73,13 @@
  }
 
  .hero h1 {
+     position: absolute;
      top: 20px;
+     width: 100%;
+     padding: 16px;
      text-align: center;
+     background-color: rgba(0, 100, 0, 0.7);
+     color: white;
  }
 
  .hero article {
@@ -84,9 +88,6 @@
      left: 10px;
      right: 100px;
      padding: 1rem;
-
- }
-
- .hero article {
-     position: absolute;
+     background-color: rgba(255, 248, 180, .85);
+     padding: 20px;
  }
