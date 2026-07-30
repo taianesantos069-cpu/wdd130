@@ -4,7 +4,7 @@
      --cor-destaque1: #264653;
      --cor-destaque2: #e9c46a;
 
-     --fonte-titulo: "Times New Roman", "Georgia", serid;
+     --fonte-titulo: "Times New Roman", Georgia, serif;
      --fonte-body: Arial, Helvetica, sans-serif;
  }
 
@@ -17,7 +17,7 @@
  body {
      font-family: var(--fonte-body);
      color: var(--cor-destaque1);
-     background-color: var(--cor-fundo);
+
  }
 
  header,
@@ -80,7 +80,6 @@
      padding: 16px;
      text-align: center;
      background-color: rgba(0, 100, 0, 0.7);
-     color: white;
  }
 
  .hero article {
@@ -88,7 +87,6 @@
      bottom: 20px;
      left: 10px;
      right: 100px;
-     padding: 1rem;
      background-color: rgba(255, 248, 180, .85);
      padding: 20px;
  }
