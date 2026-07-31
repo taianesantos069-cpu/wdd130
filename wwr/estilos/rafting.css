@@ -14,7 +14,7 @@
      grid-template-columns: 150px 1fr;
      align-items: center;
      padding: 10px 20px;
-     background-color: var(--cor-primaria);
+     background-color: var(--cor-secundaria);
  }
 
  header img {
