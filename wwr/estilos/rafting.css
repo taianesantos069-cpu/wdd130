@@ -3,7 +3,7 @@
      --cor-secundaria: #055005;
      --cor-destaque1: #264653;
      --cor-destaque2: #e9c46a;
-     --cor-branca: #eee;
+     --cor-branca: #fff;
 
      --fonte-titulo: "Times New Roman", Georgia, serif;
      --fonte-body: Arial, Helvetica, sans-serif;
@@ -15,6 +15,7 @@
      align-items: center;
      padding: 10px 20px;
      background-color: var(--cor-secundaria);
+     color: var(--cor-branca);
  }
 
  header img {
