@@ -186,11 +186,3 @@
      width: 30px;
      height: 30px;
  }
-
- h3 {
-
-     font-family: var(--fonte-titulo);
-     color: var(--cor-primaria);
-     text-align: center;
-
- }
