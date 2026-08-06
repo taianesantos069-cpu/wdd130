@@ -183,8 +183,10 @@
 
  .funcionarios {
      display: flex;
-     justify-content: space-around;
-     gap: 30px;
+     justify-content: space-evenly;
+     text-align: center;
+     margin-top: 20px;
+     gap: 10px;
  }
 
  .campo {
@@ -221,10 +223,24 @@
  .contato {
      display: grid;
      grid-template-columns: 1fr 1fr;
-     gap: 30px;
+     gap: 40px;
      align-items: start;
+     margin: 30px 0;
  }
 
- .empresa h2 {
+ h1 {
      text-align: center;
+     margin: 30px 0;
+ }
+
+ form {
+     display: flex;
+     flex-direction: column;
+     gap: 15px;
+ }
+
+ form {
+     display: flex;
+     flex-direction: column;
+     gap: 15px;
  }
