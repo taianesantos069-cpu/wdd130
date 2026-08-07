@@ -183,7 +183,7 @@
 
  .funcionarios {
      display: flex;
-     justify-content: space-evenly;
+     justify-content: center;
      text-align: center;
      margin-top: 20px;
      gap: 10px;
