@@ -189,6 +189,13 @@
      gap: 10px;
  }
 
+ .funcionarios img {
+     width: 200px;
+     height: 180px;
+     object-fit: cover;
+
+ }
+
  .campo {
      display: flex;
      flex-direction: column;
